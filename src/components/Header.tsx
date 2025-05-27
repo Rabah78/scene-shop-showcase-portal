@@ -26,26 +26,26 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#product" className="text-gray-300 hover:text-white transition-colors">
-              Produit
+              Product
             </a>
             <a href="#technology" className="text-gray-300 hover:text-white transition-colors">
-              Technologie
+              Technology
             </a>
             <a href="#use-cases" className="text-gray-300 hover:text-white transition-colors">
-              Cas d'usage
+              Use Cases
             </a>
             <a href="#about" className="text-gray-300 hover:text-white transition-colors">
-              À propos
+              About
             </a>
           </nav>
 
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="outline" className="btn-secondary">
-              Demander une démo
+              Request Demo
             </Button>
             <Button className="btn-primary">
-              Télécharger le brief
+              Download Brief
             </Button>
           </div>
 
@@ -67,36 +67,36 @@ const Header = () => {
                 className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-slate-700 rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Produit
+                Product
               </a>
               <a 
                 href="#technology" 
                 className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-slate-700 rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Technologie
+                Technology
               </a>
               <a 
                 href="#use-cases" 
                 className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-slate-700 rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Cas d'usage
+                Use Cases
               </a>
               <a 
                 href="#about" 
                 className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-slate-700 rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                À propos
+                About
               </a>
               
               <div className="pt-4 space-y-2">
                 <Button variant="outline" className="w-full btn-secondary">
-                  Demander une démo
+                  Request Demo
                 </Button>
                 <Button className="w-full btn-primary">
-                  Télécharger le brief
+                  Download Brief
                 </Button>
               </div>
             </div>

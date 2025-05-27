@@ -1,9 +1,10 @@
 
 import { Button } from "@/components/ui/button";
+import DemoRequestForm from "@/components/DemoRequestForm";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-dark"></div>
       
@@ -25,9 +26,11 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in delay-500">
-          <Button className="btn-primary text-lg">
-            Request Demo
-          </Button>
+          <DemoRequestForm>
+            <Button className="btn-primary text-lg">
+              Request Demo
+            </Button>
+          </DemoRequestForm>
           <Button variant="outline" className="btn-secondary text-lg">
             Download Executive Brief
           </Button>
