@@ -22,7 +22,7 @@ const UseCaseShowcase = () => {
                 Live Sports Commerce Revolution
               </h3>
               <p className="text-lg text-gray-400 leading-relaxed">
-                During PSG matches, viewers can instantly purchase player jerseys, equipment, and merchandise without missing a moment of action. Real-time product recognition identifies items as they appear on screen.
+                During Lakers matches, viewers can instantly purchase player jerseys, equipment, and merchandise without missing a moment of action. Real-time product recognition identifies items as they appear on screen.
               </p>
             </div>
 
@@ -49,53 +49,70 @@ const UseCaseShowcase = () => {
           <div className="relative">
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 border border-slate-700">
               <div className="aspect-video bg-midnight-800 rounded-lg relative overflow-hidden">
-                {/* Mock sports video */}
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-600/40 to-purple-600/40"></div>
+                {/* Animated Lakers game background */}
+                <img 
+                  src="https://raw.githubusercontent.com/Rabah78/scene-shop-showcase-portal/main/SceneShop_NBA.webp"
+                  alt="Lakers Live Game"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                
+                {/* Dark overlay for better overlay visibility */}
+                <div className="absolute inset-0 bg-black/10"></div>
                 
                 {/* Live indicator */}
                 <div className="absolute top-4 left-4 flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-red-500 animate-pulse"></div>
-                  <span className="text-white font-semibold text-sm">LIVE</span>
+                  <span className="text-white font-semibold text-sm bg-black/50 px-2 py-1 rounded">LIVE</span>
                 </div>
 
-                {/* Score overlay */}
-                <div className="absolute top-4 right-4 bg-black/70 rounded-lg px-4 py-2">
-                  <span className="text-white font-bold">PSG 2-1 MUN</span>
+                {/* Score overlay - Updated for Lakers game */}
+                <div className="absolute top-4 right-4 bg-black/80 backdrop-blur-sm rounded-lg px-4 py-2 border border-white/20">
+                  <span className="text-white font-bold">LAL 100-67 MEM</span>
+                </div>
+
+                {/* ESPN-style bottom bar */}
+                <div className="absolute bottom-0 left-0 right-0 bg-black/90 backdrop-blur-sm h-12 flex items-center px-4">
+                  <div className="flex items-center gap-4 text-white text-sm">
+                    <span className="font-bold">ESPN</span>
+                    <span>4th 11:26</span>
+                    <span>WEST 1st RD</span>
+                    <span>LAL LEAD 3-2</span>
+                  </div>
                 </div>
 
                 {/* Product overlays */}
-                <div className="absolute bottom-20 left-4 bg-white/10 backdrop-blur-md rounded-lg p-3 border border-white/20 animate-fade-in">
+                <div className="absolute bottom-16 left-4 bg-white/10 backdrop-blur-md rounded-lg p-3 border border-white/20 animate-fade-in shadow-xl">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-blue-600 rounded flex items-center justify-center">
-                      <span className="text-white font-bold text-xs">PSG</span>
+                    <div className="w-10 h-10 bg-gradient-to-r from-purple-600 to-yellow-500 rounded flex items-center justify-center">
+                      <span className="text-white font-bold text-xs">LAL</span>
                     </div>
                     <div>
-                      <p className="text-white text-sm font-semibold">Mbappé Jersey</p>
-                      <p className="text-cyan-400 text-sm">€89.99</p>
+                      <p className="text-white text-sm font-semibold">LeBron Jersey</p>
+                      <p className="text-yellow-400 text-sm">$119.99</p>
                     </div>
-                    <Button size="sm" className="bg-cyan-500 hover:bg-cyan-600 text-xs">
+                    <Button size="sm" className="bg-yellow-500 hover:bg-yellow-600 text-black text-xs font-semibold">
                       Buy
                     </Button>
                   </div>
                 </div>
 
-                <div className="absolute bottom-4 right-4 bg-white/10 backdrop-blur-md rounded-lg p-3 border border-white/20 animate-fade-in delay-300">
+                <div className="absolute bottom-16 right-4 bg-white/10 backdrop-blur-md rounded-lg p-3 border border-white/20 animate-fade-in delay-300 shadow-xl">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-500 rounded"></div>
                     <div>
-                      <p className="text-white text-sm font-semibold">Nike Boots</p>
-                      <p className="text-cyan-400 text-sm">€159.99</p>
+                      <p className="text-white text-sm font-semibold">Nike Shoes</p>
+                      <p className="text-cyan-400 text-sm">$159.99</p>
                     </div>
-                    <Button size="sm" className="bg-violet-500 hover:bg-violet-600 text-xs">
+                    <Button size="sm" className="bg-purple-500 hover:bg-purple-600 text-xs">
                       Buy
                     </Button>
                   </div>
                 </div>
 
-                {/* Center play button */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center cursor-pointer hover:bg-white/30 transition-colors">
-                    <div className="w-0 h-0 border-l-8 border-l-white border-y-6 border-y-transparent ml-1"></div>
+                {/* Optional: Hover overlay for interactivity */}
+                <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black/20 flex items-center justify-center cursor-pointer">
+                  <div className="w-16 h-16 bg-white/30 rounded-full flex items-center justify-center backdrop-blur-sm">
+                    <div className="w-0 h-0 border-l-6 border-l-white border-y-4 border-y-transparent ml-1"></div>
                   </div>
                 </div>
               </div>
