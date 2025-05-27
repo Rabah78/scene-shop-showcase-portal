@@ -36,11 +36,11 @@ const HeroSection = () => {
           </Button>
         </div>
 
-        {/* Video mockup with real football video */}
+        {/* Video mockup with Netflix series */}
         <div className="mt-16 relative animate-fade-in delay-700">
           <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-4 md:p-8 border border-slate-700">
             <div className="aspect-video bg-midnight-800 rounded-lg relative overflow-hidden">
-              {/* Football video background */}
+              {/* Netflix series video background */}
               <video 
                 className="absolute inset-0 w-full h-full object-cover"
                 autoPlay 
@@ -48,7 +48,7 @@ const HeroSection = () => {
                 loop 
                 playsInline
               >
-                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
+                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4" type="video/mp4" />
                 {/* Fallback gradient if video doesn't load */}
                 <div className="absolute inset-0 bg-gradient-to-br from-violet-600/30 to-cyan-400/30"></div>
               </video>
@@ -61,13 +61,15 @@ const HeroSection = () => {
                 <p className="text-white text-sm font-semibold">Interactive Video Commerce Demo</p>
               </div>
               
-              {/* Product overlay mockup - Nike Air Max */}
+              {/* Product overlay mockup - Stranger Things merchandise */}
               <div className="absolute bottom-2 md:bottom-4 right-2 md:right-4 bg-white/10 backdrop-blur-md rounded-lg p-2 md:p-3 border border-white/20">
                 <div className="flex items-center gap-2 md:gap-3">
-                  <div className="w-8 h-8 md:w-12 md:h-12 bg-violet-500 rounded"></div>
+                  <div className="w-8 h-8 md:w-12 md:h-12 bg-red-600 rounded flex items-center justify-center">
+                    <span className="text-white text-xs md:text-sm font-bold">ST</span>
+                  </div>
                   <div>
-                    <p className="text-white text-xs md:text-sm font-semibold">Nike Air Max</p>
-                    <p className="text-cyan-400 text-xs md:text-sm">$129.99</p>
+                    <p className="text-white text-xs md:text-sm font-semibold">Stranger Things T-Shirt</p>
+                    <p className="text-cyan-400 text-xs md:text-sm">$24.99</p>
                   </div>
                   <Button size="sm" className="bg-cyan-500 hover:bg-cyan-600 text-xs">
                     Buy Now
