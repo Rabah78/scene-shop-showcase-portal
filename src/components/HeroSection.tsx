@@ -36,19 +36,32 @@ const HeroSection = () => {
           </Button>
         </div>
 
-        {/* Video mockup placeholder */}
+        {/* Video mockup with real football video */}
         <div className="mt-16 relative animate-fade-in delay-700">
           <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-4 md:p-8 border border-slate-700">
-            <div className="aspect-video bg-midnight-800 rounded-lg flex items-center justify-center relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-violet-600/30 to-cyan-400/30"></div>
-              <div className="relative z-10 text-center">
-                <div className="w-12 h-12 md:w-16 md:h-16 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <div className="w-0 h-0 border-l-6 md:border-l-8 border-l-white border-y-4 md:border-y-6 border-y-transparent ml-1"></div>
-                </div>
-                <p className="text-gray-400 text-sm md:text-base">Interactive Video Commerce Demo</p>
+            <div className="aspect-video bg-midnight-800 rounded-lg relative overflow-hidden">
+              {/* Football video background */}
+              <video 
+                className="absolute inset-0 w-full h-full object-cover"
+                autoPlay 
+                muted 
+                loop 
+                playsInline
+              >
+                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
+                {/* Fallback gradient if video doesn't load */}
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-600/30 to-cyan-400/30"></div>
+              </video>
+
+              {/* Dark overlay for better text readability */}
+              <div className="absolute inset-0 bg-black/20"></div>
+              
+              {/* Demo label */}
+              <div className="absolute top-4 left-4 bg-black/70 rounded-lg px-3 py-2">
+                <p className="text-white text-sm font-semibold">Interactive Video Commerce Demo</p>
               </div>
               
-              {/* Product overlay mockup */}
+              {/* Product overlay mockup - Nike Air Max */}
               <div className="absolute bottom-2 md:bottom-4 right-2 md:right-4 bg-white/10 backdrop-blur-md rounded-lg p-2 md:p-3 border border-white/20">
                 <div className="flex items-center gap-2 md:gap-3">
                   <div className="w-8 h-8 md:w-12 md:h-12 bg-violet-500 rounded"></div>
