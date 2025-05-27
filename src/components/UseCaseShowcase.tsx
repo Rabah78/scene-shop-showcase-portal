@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 const UseCaseShowcase = () => {
@@ -49,12 +48,11 @@ const UseCaseShowcase = () => {
           <div className="relative">
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 border border-slate-700">
               <div className="aspect-video bg-midnight-800 rounded-lg relative overflow-hidden">
-                {/* Lakers game background with automatic rotation */}
+                {/* Lakers game background - static image */}
                 <img 
                   src="https://raw.githubusercontent.com/Rabah78/scene-shop-showcase-portal/main/SceneShop_NBA.webp"
                   alt="Lakers Live Game"
-                  className="absolute inset-0 w-full h-full object-cover animate-spin"
-                  style={{ animationDuration: '20s' }}
+                  className="absolute inset-0 w-full h-full object-cover"
                 />
               </div>
             </div>
