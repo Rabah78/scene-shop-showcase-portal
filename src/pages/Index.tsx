@@ -1,4 +1,5 @@
 
+import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ProductHighlights from "@/components/ProductHighlights";
 import TechnologySection from "@/components/TechnologySection";
@@ -10,12 +11,21 @@ import CTAFooter from "@/components/CTAFooter";
 const Index = () => {
   return (
     <div className="min-h-screen bg-midnight-900 text-white overflow-x-hidden">
+      <Header />
       <HeroSection />
-      <ProductHighlights />
-      <TechnologySection />
-      <UseCaseShowcase />
+      <div id="product">
+        <ProductHighlights />
+      </div>
+      <div id="technology">
+        <TechnologySection />
+      </div>
+      <div id="use-cases">
+        <UseCaseShowcase />
+      </div>
       <BusinessImpact />
-      <AboutSection />
+      <div id="about">
+        <AboutSection />
+      </div>
       <CTAFooter />
     </div>
   );
