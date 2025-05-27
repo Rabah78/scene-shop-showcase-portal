@@ -1,4 +1,6 @@
 
+import React from 'react';
+
 const TechnologySection = () => {
   return (
     <section className="py-24 px-6 relative">
@@ -64,7 +66,7 @@ const TechnologySection = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                  <span className="font-mono text-yellow-400">Latency: <50ms</span>
+                  <span className="font-mono text-yellow-400">Latency: &lt;50ms</span>
                 </div>
               </div>
               
