@@ -50,7 +50,7 @@ const UseCaseShowcase = () => {
               <div className="aspect-video bg-midnight-800 rounded-lg relative overflow-hidden">
                 {/* Image AVIF animé en boucle infinie */}
                 <img
-                  src="https://raw.githubusercontent.com/Rabah78/scene-shop-showcase-portal/main/SceneShop_NBA_loop.avif"
+                  src="https://raw.githubusercontent.com/Rabah78/scene-shop-showcase-portal/main/SceneShop_NBA.avif"
                   alt="Lakers Live Game"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
