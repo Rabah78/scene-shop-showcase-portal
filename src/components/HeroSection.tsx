@@ -23,7 +23,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto animate-fade-in delay-300">
-          SceneShop transforms your streaming experience into a seamless buying journey with patent-pending interactive video commerce technology
+          SceneShop transforms your streaming experience into a seamless buying journey with patent interactive video commerce technology
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in delay-500">
