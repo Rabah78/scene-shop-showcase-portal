@@ -1,8 +1,8 @@
 
 const BusinessImpact = () => {
   const stats = [
-    { label: "Total Addressable Market", value: "$250B", description: "Global video streaming commerce" },
-    { label: "Serviceable Market", value: "$25B", description: "Interactive video platforms" },
+    { label: "Total Addressable Market", value: "$25B", description: "Global video streaming commerce" },
+    { label: "Serviceable Market", value: "$10B", description: "Interactive video platforms" },
     { label: "Revenue Growth", value: "340%", description: "Year-over-year increase" },
     { label: "Client Satisfaction", value: "98%", description: "Platform reliability score" },
   ];
