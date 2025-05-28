@@ -50,7 +50,7 @@ const UseCaseShowcase = () => {
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 border border-slate-700">
               <div className="aspect-video bg-midnight-800 rounded-lg relative overflow-hidden">
                 <video 
-                  src="https://raw.githubusercontent.com/Rabah78/scene-shop-showcase-portal/main/SceneShop_NBA.webp"
+                  src="https://raw.githubusercontent.com/Rabah78/scene-shop-showcase-portal/main/SceneShop_NBA.avif"
                   className="absolute inset-0 w-full h-full object-cover"
                   autoPlay
                   loop
