@@ -21,7 +21,7 @@ const TechnologySection = () => {
           </h2>
           
           <p className="text-xl text-gray-400 max-w-4xl mx-auto mb-12">
-            Built with privacy, performance, and scale in mind. Our patent-pending technology enables real-time product tagging without compromising viewer experience or content quality.
+            Built with privacy, performance, and scale in mind. Our patent technology enables real-time product tagging without compromising viewer experience or content quality.
           </p>
         </div>
 
