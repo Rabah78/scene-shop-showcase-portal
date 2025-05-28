@@ -23,7 +23,7 @@ const AboutSection = () => {
                 <div>
                   <h3 className="text-white font-semibold mb-2">Legacy of Innovation</h3>
                   <p className="text-gray-400">
-                    15+ years of proven expertise in building scalable technology solutions for enterprise clients
+                    35+ years of proven expertise in building scalable technology solutions for enterprise clients
                   </p>
                 </div>
               </div>
@@ -63,11 +63,11 @@ const AboutSection = () => {
 
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center p-4 rounded-lg bg-violet-600/10 border border-violet-500/20">
-                    <div className="text-2xl font-bold text-violet-400 mb-1">15+</div>
+                    <div className="text-2xl font-bold text-violet-400 mb-1">35+</div>
                     <div className="text-gray-400 text-sm">Years Experience</div>
                   </div>
                   <div className="text-center p-4 rounded-lg bg-cyan-600/10 border border-cyan-500/20">
-                    <div className="text-2xl font-bold text-cyan-400 mb-1">50M+</div>
+                    <div className="text-2xl font-bold text-cyan-400 mb-1">50K+</div>
                     <div className="text-gray-400 text-sm">Video Hours Processed</div>
                   </div>
                   <div className="text-center p-4 rounded-lg bg-violet-600/10 border border-violet-500/20">
