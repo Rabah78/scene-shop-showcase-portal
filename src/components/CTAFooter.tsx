@@ -138,7 +138,7 @@ const CTAFooter = () => {
                 © 2025 Padam Technologies QFZ LLC. All rights reserved.
               </p>
               <p className="text-gray-500 text-xs mt-1">
-                Patent Pending: PCT/EP2024/060459
+                Patent: PCT/EP2024/060459
               </p>
             </div>
             <div className="flex gap-6 text-xs">
