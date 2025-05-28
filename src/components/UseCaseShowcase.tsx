@@ -59,7 +59,7 @@ const UseCaseShowcase = () => {
                 />
                 
                 <img 
-                  src="https://raw.githubusercontent.com/Rabah78/scene-shop-showcase-portal/main/SceneShop_NBA.webp"
+                  src="https://raw.githubusercontent.com/Rabah78/scene-shop-showcase-portal/main/SceneShop_NBA_loop.avif"
                   alt="Lakers Live Game"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
