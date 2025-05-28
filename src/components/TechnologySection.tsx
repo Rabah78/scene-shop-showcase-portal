@@ -12,7 +12,7 @@ const TechnologySection = () => {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-6 py-3 rounded-full bg-violet-600/20 border border-violet-500/30 mb-8">
-            <span className="text-violet-400 font-semibold">Patent Pending: PCT/EP2024/060459</span>
+            <span className="text-violet-400 font-semibold">Patent: PCT/EP2024/060459</span>
           </div>
           
           <h2 className="text-5xl font-bold mb-8">
