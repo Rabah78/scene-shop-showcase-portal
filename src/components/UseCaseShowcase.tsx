@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 const UseCaseShowcase = () => {
@@ -49,16 +48,8 @@ const UseCaseShowcase = () => {
           <div className="relative">
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 border border-slate-700">
               <div className="aspect-video bg-midnight-800 rounded-lg relative overflow-hidden">
-                <video 
-                  src="https://raw.githubusercontent.com/Rabah78/scene-shop-showcase-portal/main/SceneShop_NBA_loop.avif"
-                  className="absolute inset-0 w-full h-full object-cover"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                />
-                
-                <img 
+                {/* Image AVIF animé en boucle infinie */}
+                <img
                   src="https://raw.githubusercontent.com/Rabah78/scene-shop-showcase-portal/main/SceneShop_NBA_loop.avif"
                   alt="Lakers Live Game"
                   className="absolute inset-0 w-full h-full object-cover"
