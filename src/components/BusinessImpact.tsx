@@ -88,8 +88,8 @@ const BusinessImpact = () => {
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-gradient-primary rounded-full"></div>
                 <div>
-                  <p className="text-white font-semibold">Alex Chen</p>
-                  <p className="text-gray-400 text-sm">Head of Digital Innovation, BeIN Sports</p>
+                  <p className="text-white font-semibold">Daniel Markham</p>
+                  <p className="text-gray-400 text-sm">Special Advisor to Chairman & CEO, BeIN Sports</p>
                 </div>
               </div>
             </div>
